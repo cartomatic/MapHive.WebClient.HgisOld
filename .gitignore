@@ -11,6 +11,9 @@ docs/docs/
 /packages/local/mh/
 /packages/local/codaxy*/
 
+jsLibs/
+
+
 ############
 # Sencha #
 ############

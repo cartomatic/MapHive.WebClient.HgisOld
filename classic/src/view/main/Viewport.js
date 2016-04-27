@@ -10,11 +10,13 @@
     Ext.define('MapHiveHgis1.view.main.Viewport', {
         extend: 'Ext.panel.Panel',
 
-    requires: [
+        requires: [
         'Ext.plugin.Viewport'
     ],
 
     plugins: 'viewport',
+
+        border: false
 
 
     });
