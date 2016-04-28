@@ -2,7 +2,7 @@
     /**
      * The application's namespace.
      */
-    "name": "MapHiveHgis1",
+    "name": "MapHiveHgisOld",
     
     /**
      * The version of the application.
@@ -77,13 +77,13 @@
     "sass": {
         /**
          * The root namespace to use when mapping *.scss files to classes in the
-         * sass/src and sass/var directories. For example, "MapHiveHgis1.view.Foo" would
-         * map to "sass/src/view/Foo.scss". If we changed this to "MapHiveHgis1.view" then
+         * sass/src and sass/var directories. For example, "MapHiveHgisOld.view.Foo" would
+         * map to "sass/src/view/Foo.scss". If we changed this to "MapHiveHgisOld.view" then
          * it would map to "sass/src/Foo.scss". To style classes outside the app's
          * root namespace, change this to "". Doing so would change the mapping of
-         * "MapHiveHgis1.view.Foo" to "sass/src/MapHiveHgis1/view/Foo.scss".
+         * "MapHiveHgisOld.view.Foo" to "sass/src/MapHiveHgisOld/view/Foo.scss".
          */
-        "namespace": "MapHiveHgis1",
+        "namespace": "MapHiveHgisOld",
 
         /**
          * File used to save sass variables edited via Sencha Inspector. This file

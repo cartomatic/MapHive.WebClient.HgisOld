@@ -7,7 +7,7 @@
     /**
      * Created by domin on 4/27/2016.
      */
-    Ext.define('MapHiveHgis1.Permalink', {
+    Ext.define('MapHiveHgisOld.Permalink', {
     requires: [
         'Ext.util.DelayedTask'
     ],

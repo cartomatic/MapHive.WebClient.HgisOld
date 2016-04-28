@@ -2,9 +2,9 @@
 
 This folder contains Sass files defining CSS rules corresponding to classes
 included in the application's JavaScript code build when using the classic toolkit.
-By default, files in this folder are mapped to the application's root namespace, 'MapHiveHgis1'.
+By default, files in this folder are mapped to the application's root namespace, 'MapHiveHgisOld'.
 This is set in `"app.json"`:
 
     "sass": {
-        "namespace": "MapHiveHgis1"
+        "namespace": "MapHiveHgisOld"
     }

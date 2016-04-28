@@ -4,7 +4,7 @@
     //Make sure strict mode is on
     'use strict';
 
-    Ext.define('MapHiveHgis1.view.main.Viewport', {
+    Ext.define('MapHiveHgisOld.view.main.Viewport', {
 
         extend: 'Ext.Container',
 

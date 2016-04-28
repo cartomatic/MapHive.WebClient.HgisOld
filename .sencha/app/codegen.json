@@ -32,19 +32,19 @@
       "parameters": {
         "appControllers": "",
         "appModels": "",
-        "appName": "MapHiveHgis1",
+        "appName": "MapHiveHgisOld",
         "appStores": "",
         "appViews": "",
         "classic": false,
         "controllerFileName": "Main",
         "controllerName": "Main",
-        "controllerNamespace": "MapHiveHgis1.controller",
+        "controllerNamespace": "MapHiveHgisOld.controller",
         "frameworkKey": "ext",
         "frameworkName": "ext",
         "frameworkPath": "ext",
-        "modelNamespace": "MapHiveHgis1.model",
+        "modelNamespace": "MapHiveHgisOld.model",
         "modern": false,
-        "name": "MapHiveHgis1",
+        "name": "MapHiveHgisOld",
         "packagesRelPath": "ext/packages",
         "senchadir": ".sencha",
         "themeName": "default",
@@ -53,7 +53,7 @@
         "universal": true,
         "viewFileName": "Main",
         "viewName": "Main",
-        "viewNamespace": "MapHiveHgis1.view"
+        "viewNamespace": "MapHiveHgisOld.view"
       }
     },
     ".sencha/app/development.properties": {
@@ -62,19 +62,19 @@
       "parameters": {
         "appControllers": "",
         "appModels": "",
-        "appName": "MapHiveHgis1",
+        "appName": "MapHiveHgisOld",
         "appStores": "",
         "appViews": "",
         "classic": false,
         "controllerFileName": "Main",
         "controllerName": "Main",
-        "controllerNamespace": "MapHiveHgis1.controller",
+        "controllerNamespace": "MapHiveHgisOld.controller",
         "frameworkKey": "ext",
         "frameworkName": "ext",
         "frameworkPath": "ext",
-        "modelNamespace": "MapHiveHgis1.model",
+        "modelNamespace": "MapHiveHgisOld.model",
         "modern": false,
-        "name": "MapHiveHgis1",
+        "name": "MapHiveHgisOld",
         "packagesRelPath": "ext/packages",
         "senchadir": ".sencha",
         "themeName": "default",
@@ -83,7 +83,7 @@
         "universal": true,
         "viewFileName": "Main",
         "viewName": "Main",
-        "viewNamespace": "MapHiveHgis1.view"
+        "viewNamespace": "MapHiveHgisOld.view"
       }
     },
     ".sencha/app/native.properties": {
@@ -92,19 +92,19 @@
       "parameters": {
         "appControllers": "",
         "appModels": "",
-        "appName": "MapHiveHgis1",
+        "appName": "MapHiveHgisOld",
         "appStores": "",
         "appViews": "",
         "classic": false,
         "controllerFileName": "Main",
         "controllerName": "Main",
-        "controllerNamespace": "MapHiveHgis1.controller",
+        "controllerNamespace": "MapHiveHgisOld.controller",
         "frameworkKey": "ext",
         "frameworkName": "ext",
         "frameworkPath": "ext",
-        "modelNamespace": "MapHiveHgis1.model",
+        "modelNamespace": "MapHiveHgisOld.model",
         "modern": false,
-        "name": "MapHiveHgis1",
+        "name": "MapHiveHgisOld",
         "packagesRelPath": "ext/packages",
         "senchadir": ".sencha",
         "themeName": "default",
@@ -113,7 +113,7 @@
         "universal": true,
         "viewFileName": "Main",
         "viewName": "Main",
-        "viewNamespace": "MapHiveHgis1.view"
+        "viewNamespace": "MapHiveHgisOld.view"
       }
     },
     ".sencha/app/package.properties": {
@@ -122,19 +122,19 @@
       "parameters": {
         "appControllers": "",
         "appModels": "",
-        "appName": "MapHiveHgis1",
+        "appName": "MapHiveHgisOld",
         "appStores": "",
         "appViews": "",
         "classic": false,
         "controllerFileName": "Main",
         "controllerName": "Main",
-        "controllerNamespace": "MapHiveHgis1.controller",
+        "controllerNamespace": "MapHiveHgisOld.controller",
         "frameworkKey": "ext",
         "frameworkName": "ext",
         "frameworkPath": "ext",
-        "modelNamespace": "MapHiveHgis1.model",
+        "modelNamespace": "MapHiveHgisOld.model",
         "modern": false,
-        "name": "MapHiveHgis1",
+        "name": "MapHiveHgisOld",
         "packagesRelPath": "ext/packages",
         "senchadir": ".sencha",
         "themeName": "default",
@@ -143,7 +143,7 @@
         "universal": true,
         "viewFileName": "Main",
         "viewName": "Main",
-        "viewNamespace": "MapHiveHgis1.view"
+        "viewNamespace": "MapHiveHgisOld.view"
       }
     },
     ".sencha/app/production.properties": {
@@ -152,19 +152,19 @@
       "parameters": {
         "appControllers": "",
         "appModels": "",
-        "appName": "MapHiveHgis1",
+        "appName": "MapHiveHgisOld",
         "appStores": "",
         "appViews": "",
         "classic": false,
         "controllerFileName": "Main",
         "controllerName": "Main",
-        "controllerNamespace": "MapHiveHgis1.controller",
+        "controllerNamespace": "MapHiveHgisOld.controller",
         "frameworkKey": "ext",
         "frameworkName": "ext",
         "frameworkPath": "ext",
-        "modelNamespace": "MapHiveHgis1.model",
+        "modelNamespace": "MapHiveHgisOld.model",
         "modern": false,
-        "name": "MapHiveHgis1",
+        "name": "MapHiveHgisOld",
         "packagesRelPath": "ext/packages",
         "senchadir": ".sencha",
         "themeName": "default",
@@ -173,7 +173,7 @@
         "universal": true,
         "viewFileName": "Main",
         "viewName": "Main",
-        "viewNamespace": "MapHiveHgis1.view"
+        "viewNamespace": "MapHiveHgisOld.view"
       }
     },
     ".sencha/app/sencha.cfg": {
@@ -182,19 +182,19 @@
       "parameters": {
         "appControllers": "",
         "appModels": "",
-        "appName": "MapHiveHgis1",
+        "appName": "MapHiveHgisOld",
         "appStores": "",
         "appViews": "",
         "classic": false,
         "controllerFileName": "Main",
         "controllerName": "Main",
-        "controllerNamespace": "MapHiveHgis1.controller",
+        "controllerNamespace": "MapHiveHgisOld.controller",
         "frameworkKey": "ext",
         "frameworkName": "ext",
         "frameworkPath": "ext",
-        "modelNamespace": "MapHiveHgis1.model",
+        "modelNamespace": "MapHiveHgisOld.model",
         "modern": false,
-        "name": "MapHiveHgis1",
+        "name": "MapHiveHgisOld",
         "packagesRelPath": "ext/packages",
         "senchadir": ".sencha",
         "themeName": "default",
@@ -203,7 +203,7 @@
         "universal": true,
         "viewFileName": "Main",
         "viewName": "Main",
-        "viewNamespace": "MapHiveHgis1.view"
+        "viewNamespace": "MapHiveHgisOld.view"
       }
     },
     ".sencha/app/testing.properties": {
@@ -212,19 +212,19 @@
       "parameters": {
         "appControllers": "",
         "appModels": "",
-        "appName": "MapHiveHgis1",
+        "appName": "MapHiveHgisOld",
         "appStores": "",
         "appViews": "",
         "classic": false,
         "controllerFileName": "Main",
         "controllerName": "Main",
-        "controllerNamespace": "MapHiveHgis1.controller",
+        "controllerNamespace": "MapHiveHgisOld.controller",
         "frameworkKey": "ext",
         "frameworkName": "ext",
         "frameworkPath": "ext",
-        "modelNamespace": "MapHiveHgis1.model",
+        "modelNamespace": "MapHiveHgisOld.model",
         "modern": false,
-        "name": "MapHiveHgis1",
+        "name": "MapHiveHgisOld",
         "packagesRelPath": "ext/packages",
         "senchadir": ".sencha",
         "themeName": "default",
@@ -233,7 +233,7 @@
         "universal": true,
         "viewFileName": "Main",
         "viewName": "Main",
-        "viewNamespace": "MapHiveHgis1.view"
+        "viewNamespace": "MapHiveHgisOld.view"
       }
     },
     "sass/config.rb": {
@@ -242,19 +242,19 @@
       "parameters": {
         "appControllers": "",
         "appModels": "",
-        "appName": "MapHiveHgis1",
+        "appName": "MapHiveHgisOld",
         "appStores": "",
         "appViews": "",
         "classic": false,
         "controllerFileName": "Main",
         "controllerName": "Main",
-        "controllerNamespace": "MapHiveHgis1.controller",
+        "controllerNamespace": "MapHiveHgisOld.controller",
         "frameworkKey": "ext",
         "frameworkName": "ext",
         "frameworkPath": "ext",
-        "modelNamespace": "MapHiveHgis1.model",
+        "modelNamespace": "MapHiveHgisOld.model",
         "modern": false,
-        "name": "MapHiveHgis1",
+        "name": "MapHiveHgisOld",
         "packagesRelPath": "ext/packages",
         "senchadir": ".sencha",
         "themeName": "default",
@@ -263,7 +263,7 @@
         "universal": true,
         "viewFileName": "Main",
         "viewName": "Main",
-        "viewNamespace": "MapHiveHgis1.view"
+        "viewNamespace": "MapHiveHgisOld.view"
       }
     }
   }

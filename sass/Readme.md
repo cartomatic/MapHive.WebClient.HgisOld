@@ -15,19 +15,19 @@ This folder contains misc. support code for Sass builds (global functions, etc.)
 
 This folder contains Sass files defining CSS rules corresponding to classes
 included in the application's JavaScript code build. By default, files in this 
-folder are mapped to the application's root namespace, 'MapHiveHgis1'. This is set in
+folder are mapped to the application's root namespace, 'MapHiveHgisOld'. This is set in
 `"app.json"`:
 
     "sass": {
-        "namespace": "MapHiveHgis1"
+        "namespace": "MapHiveHgisOld"
     }
 
 ### ./sass/var
 
 This folder contains Sass files defining Sass variables corresponding to classes
 included in the application's JavaScript code build. By default, files in this 
-folder are mapped to the application's root namespace, 'MapHiveHgis1' in the same way
-as `"MapHiveHgis1/sass/src"`.
+folder are mapped to the application's root namespace, 'MapHiveHgisOld' in the same way
+as `"MapHiveHgisOld/sass/src"`.
 
 ## Slicing
 

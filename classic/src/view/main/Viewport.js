@@ -7,7 +7,7 @@
     /**
      * Created by domin on 4/27/2016.
      */
-    Ext.define('MapHiveHgis1.view.main.Viewport', {
+    Ext.define('MapHiveHgisOld.view.main.Viewport', {
         extend: 'Ext.panel.Panel',
 
         requires: [

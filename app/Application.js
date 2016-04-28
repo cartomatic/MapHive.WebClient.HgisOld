@@ -5,17 +5,17 @@
     /**
      * Just a customised generic app entry point
      */
-    Ext.define('MapHiveHgis1.Application', {
+    Ext.define('MapHiveHgisOld.Application', {
         extend: 'mh.Application',
 
         requires: [
-            'MapHiveHgis1.AppLauncher'
+            'MapHiveHgisOld.AppLauncher'
         ],
 
         //here goes a custom app launcher class. If not overridden, it will default to mh.AppLauncher
-        //Note: in this case MapHiveHgis1.AppLauncher just inherits from mh.AppLauncher and is used instead as
+        //Note: in this case MapHiveHgisOld.AppLauncher just inherits from mh.AppLauncher and is used instead as
         //this is needed  so the proper azzurra scss is brought in!
-        appLauncher: 'MapHiveHgis1.AppLauncher',
+        appLauncher: 'MapHiveHgisOld.AppLauncher',
 
         onLaunchApp: function(){
 

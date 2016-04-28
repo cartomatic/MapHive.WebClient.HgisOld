@@ -7,7 +7,7 @@
     /**
      * App launcher - need to use it here, so the proper azzurra scss is brought in!
      */
-    Ext.define('MapHiveHgis1.AppLauncher', {
+    Ext.define('MapHiveHgisOld.AppLauncher', {
     requires: [
         'Ext.button.Button',
         'Ext.container.Viewport',
@@ -21,8 +21,8 @@
         'Ext.tip.QuickTipManager',
         'Ext.toolbar.Fill',
         'Ext.toolbar.Toolbar',
-        'MapHiveHgis1.Permalink',
-        'MapHiveHgis1.view.main.Viewport',
+        'MapHiveHgisOld.Permalink',
+        'MapHiveHgisOld.view.main.Viewport',
         'mh.module.appBar.AppBar',
         'mh.module.appBar.AppSwitcherButton'
     ],
@@ -58,7 +58,7 @@
             var me = this;
 
             //instantiate and activate permalink module
-            this.permalink = Ext.create('MapHiveHgis1.Permalink',{
+            this.permalink = Ext.create('MapHiveHgisOld.Permalink',{
                 map: this.map,
                 pLinkGetters: [
                     //active layer
@@ -167,7 +167,7 @@
             });
 
             //init the GUI
-            Ext.create('MapHiveHgis1.view.main.Viewport', {
+            Ext.create('MapHiveHgisOld.view.main.Viewport', {
                 dockedItems: [
                     //use the default app toolbar
                     {

@@ -5,18 +5,18 @@
  */
 Ext.application({
 
-    name: 'MapHiveHgis1',
+    name: 'MapHiveHgisOld',
 
-    extend: 'MapHiveHgis1.Application',
+    extend: 'MapHiveHgisOld.Application',
 
     requires: [
     ]
 
     ///Do not create a view yet. Let the app decide how to handle it
-    //mainView: 'MapHiveHgis1.view.main.Main'
+    //mainView: 'MapHiveHgisOld.view.main.Main'
 	
     //-------------------------------------------------------------------------
-    // Most customizations should be made to MapHiveHgis1.Application. If you need to
+    // Most customizations should be made to MapHiveHgisOld.Application. If you need to
     // customize this file, doing so below this section reduces the likelihood
     // of merge conflicts when upgrading to new versions of Sencha Cmd.
     //-------------------------------------------------------------------------
