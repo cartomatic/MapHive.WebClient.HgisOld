@@ -22,7 +22,6 @@
         'Ext.toolbar.Fill',
         'Ext.toolbar.Toolbar',
         'MapHiveHgisOld.Permalink',
-        'MapHiveHgisOld.view.main.Viewport',
         'mh.module.appBar.AppBar',
         'mh.module.appBar.AppSwitcherButton'
     ],
@@ -31,6 +30,7 @@
 
             Ext.getBody().on("contextmenu", Ext.emptyFn, null, {preventDefault: true});
 
+            //disable aria warnings
             Ext.ariaWarn = Ext.emptyFn;
 
             //init Ext quick tips
@@ -39,8 +39,10 @@
 
             //Do whatever the customisation are required - running in an iframe vs standalone...
 
-            //TODO - prepare the host insfrastructure - so can instantiate and communicate with the hosted apps!
-
+            //Note: all the above is a standard MapHive hosted app setup
+            //Stuff below is the actual old HGIS entry point. And it has been ported without changes pretty much.
+            //the only changes done were namespace changes. Also added the mh.appBar.AppBar + mh.appBar.AppSwitcherBtn to the layout, so when the app runs in standalone mode
+            //it is still possible to switch between the apps
             this.launchApp();
         },
 
@@ -166,44 +168,41 @@
                 ]
             });
 
-            //init the GUI
-            Ext.create('MapHiveHgisOld.view.main.Viewport', {
-                dockedItems: [
-                    //use the default app toolbar
-                    {
-                        xtype: 'mh-app-bar',
-                        items:[
-                            {
-                                xtype: 'mh-app-switcher-button',
-                                ui: 'default',
-
-                                appBtnUi: 'default',
-                                appActiveBtnUi: 'default'
-                            },
-                            '->',
-                            {
-                                xtype: 'button',
-                                text: 'some other btn'
-                            }
-                        ]
-
-                    }
-                ],
-                layout: 'border',
+            //Application viewport
+            Ext.create('Ext.container.Viewport', {
+                layout: 'fit',
                 items: [
-                    this.mapContainer,
-                    this.westPanel
+                    {
+                        xtype: 'panel',
+                        dockedItems: [
+                            //use the default app toolbar
+                            {
+                                xtype: 'mh-app-bar',
+                                items:[
+                                    {
+                                        xtype: 'mh-app-switcher-button',
+                                        ui: 'default',
+
+                                        appBtnUi: 'default',
+                                        appActiveBtnUi: 'default'
+                                    },
+                                    '->',
+                                    {
+                                        xtype: 'button',
+                                        text: 'some other btn'
+                                    }
+                                ]
+
+                            }
+                        ],
+                        layout: 'border',
+                        items: [
+                            this.mapContainer,
+                            this.westPanel
+                        ]
+                    }
                 ]
             });
-
-            // //Application viewport
-            // Ext.create('Ext.container.Viewport', {
-            //     layout: 'border',
-            //     items: [
-            //         this.mapContainer,
-            //         this.westPanel
-            //     ]
-            // });
         },
 
         exportMap: function () {
