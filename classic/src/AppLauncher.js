@@ -9,6 +9,7 @@
      */
     Ext.define('MapHiveHgis1.AppLauncher', {
     requires: [
+        'Ext.button.Button',
         'Ext.container.Viewport',
         'Ext.form.Panel',
         'Ext.form.RadioGroup',
@@ -18,10 +19,12 @@
         'Ext.panel.Panel',
         'Ext.slider.Single',
         'Ext.tip.QuickTipManager',
+        'Ext.toolbar.Fill',
         'Ext.toolbar.Toolbar',
+        'MapHiveHgis1.Permalink',
         'MapHiveHgis1.view.main.Viewport',
         'mh.module.appBar.AppBar',
-        'MapHiveHgis1.Permalink'
+        'mh.module.appBar.AppSwitcherButton'
     ],
 
     constructor: function(config){
@@ -168,7 +171,22 @@
                 dockedItems: [
                     //use the default app toolbar
                     {
-                        xtype: 'mh-app-bar'
+                        xtype: 'mh-app-bar',
+                        items:[
+                            {
+                                xtype: 'mh-app-switcher-button',
+                                ui: 'default',
+
+                                appBtnUi: 'default',
+                                appActiveBtnUi: 'default'
+                            },
+                            '->',
+                            {
+                                xtype: 'button',
+                                text: 'some other btn'
+                            }
+                        ]
+
                     }
                 ],
                 layout: 'border',
