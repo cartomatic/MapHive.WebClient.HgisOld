@@ -12,7 +12,7 @@ namespace MapHive.WebClient.HgisOld
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Page.InjectMhCfg(Request.Url.AbsolutePath.Replace(Request.Url.LocalPath, "/"));
+            Page.InjectMhCfg();
         }
     }
 }
