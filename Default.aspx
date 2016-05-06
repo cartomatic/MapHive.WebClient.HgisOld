@@ -1,20 +1,15 @@
-<!DOCTYPE HTML>
-<html manifest="">
-<head>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="MapHive.WebClient.HgisOld.Default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" manifest="">
+<head runat="server">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <title>HgisOld@MapHive</title>
-
-    <script type="text/javascript">
-        var __mhcfg__ = {
-            mhApiEndPoint: 'packages/local/mh/devFakeApi/',
-            requiresAuth: false,
-            allowedXWindowMsgBusOrigins: ['maphive.local','maphive.net', 'emapa.local']
-        }
-    </script>
-
+    
     <!--splash screen-->
     <link rel="stylesheet" href="splash/splash.css" type="text/css">
     <script src="splash/splash.js"></script>
@@ -62,7 +57,7 @@
     
     <!-- The line below must be kept intact for Sencha Cmd to build your application -->
     <script id="microloader" data-app="238d8ce1-d61b-4396-8632-57fe760a9aed" type="text/javascript" src="bootstrap.js"></script>
-
 </head>
-<body></body>
+<body>
+</body>
 </html>
