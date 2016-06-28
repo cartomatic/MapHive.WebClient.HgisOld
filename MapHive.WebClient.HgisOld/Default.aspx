@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="MapHive.WebClient.HgisOld.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="MapHive.WebClient.HgisOld.Default" Async="true"%>
 
 <!DOCTYPE html>
 
