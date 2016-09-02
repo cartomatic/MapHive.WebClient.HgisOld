@@ -12,7 +12,7 @@ namespace MapHive.WebClient.HgisOld
     {
         protected async void Page_Load(object sender, EventArgs e)
         {
-            await Page.InjectMhCfg("SomeApp,mh");
+            await Page.InjectMhCfgAsync("SomeApp,mh");
         }
     }
 }
