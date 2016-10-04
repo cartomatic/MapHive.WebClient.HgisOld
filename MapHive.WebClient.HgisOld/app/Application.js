@@ -12,6 +12,12 @@
             'MapHiveHgisOld.AppLauncher'
         ],
 
+        controllers: [
+            'MapHiveHgisOld.controller.Root',
+            'mh.controller.Auth',
+            'mh.controller.Splash'
+        ],
+
         //here goes a custom app launcher class. If not overridden, it will default to mh.AppLauncher
         //Note: in this case MapHiveHgisOld.AppLauncher just inherits from mh.AppLauncher and is used instead as
         //this is needed  so the proper azzurra scss is brought in!

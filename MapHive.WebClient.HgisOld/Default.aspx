@@ -10,6 +10,9 @@
 
     <title>HgisOld@MapHive</title>
     
+    <!--Client cfg-->
+    <script src="ClientConfiguration.ashx"></script>
+    
     <!--splash screen-->
     <link rel="stylesheet" href="splash/splash.css" type="text/css">
     <script src="splash/splash.js"></script>
