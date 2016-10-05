@@ -19,7 +19,7 @@
         },
 
         /**
-         * A simple override - hgis does not use a standard cfg, so needs to supress the defaut cfg call
+         * A simple override - hgis does not use a standard cfg, so needs to needs to suppress the default cfg call
          */
         getUserConfiguration: function(){
             this.fireGlobal('root::launchapp');
