@@ -32,7 +32,7 @@
             this.superclass.superclass.onLaunchApp.call(this);
 
             //start the external route watcher - this will watch changes advised by a parent, and pass own changes to a parent
-            this.fireGlobal('root:watchexternalroutes', {host: true});
+            this.fireGlobal('root::watchexternalroutes', {host: true});
         }
 
     });
