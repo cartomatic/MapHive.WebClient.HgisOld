@@ -55,8 +55,10 @@
      *      ]
      */
     "requires": [
-        "font-awesome",
-        "mh"
+        "mh",
+        "icon-54",
+        "icon-54-com",
+        "linear-icons"
     ],
 
     /**
