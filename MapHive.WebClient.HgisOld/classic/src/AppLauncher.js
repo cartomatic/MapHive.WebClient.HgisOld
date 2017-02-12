@@ -177,22 +177,7 @@
                         dockedItems: [
                             //use the default app toolbar
                             {
-                                xtype: 'mh-app-bar',
-                                items:[
-                                    {
-                                        xtype: 'mh-app-switcher-button',
-                                        ui: 'default',
-
-                                        appBtnUi: 'default',
-                                        appActiveBtnUi: 'default'
-                                    },
-                                    '->',
-                                    {
-                                        xtype: 'button',
-                                        text: 'some other btn'
-                                    }
-                                ]
-
+                                xtype: 'mh-app-bar'
                             }
                         ],
                         layout: 'border',
