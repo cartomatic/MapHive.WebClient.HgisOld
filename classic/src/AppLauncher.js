@@ -550,9 +550,7 @@
                             resolutions: resolutions
                         }),
                         attributions: [
-                            new ol.Attribution({
-                                html: 'HGIS Tiles <a href="http://hgis.cartomatic.pl/">hgis.cartomatic.pl</a>'
-                            })
+                            'HGIS Tiles <a href="http://hgis.cartomatic.pl/">hgis.cartomatic.pl</a>'
                         ]
                     }),
                     visible: false //initially make all the layers invisible

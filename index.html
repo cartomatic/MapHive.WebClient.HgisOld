@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html manifest="">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>MapHiveHgisOld</title>
+
+    <!--splash screen-->
+    <link rel="stylesheet" href="splash/splash.css" type="text/css">
+    <script src="splash/splash.js"></script>
+
+    <link rel="stylesheet" href="jslibs/ol/5.0.3/ol.css" type="text/css">
+    <script src="jslibs/ol/5.0.3/ol.js"></script>
+
+    <!--cleanup_begin-->
+
+    <!--Basic MapHive env webclient bootstrap; this queues all the configuration stuff with the app itself as a final script-->
+    <!--Important: webclient configuration must be provided via config/webclient.js-->
+    <!--for details see mh/bootstrap/webclient.js-->
+    <script type="text/javascript" src="packages/local/mh/bootstrap/bootstrap.js?r=201807151014"></script>
+
+    <!--
+        Note:
+        not using a default microloader here, but the original script tag must be left intact, so sencha app build works as expected;
+        This gets cleaned up when wg builder is executed
+        In order to build a wg app on windows copy a build.bat file from packages/local/wg/builder to the root folder of the app and execute it
+    -->
+    <!--So for building a wg app a custom node.js based builder should be used instead of the default sencha app build command -->
+    <!-- The line below must be kept intact for Sencha Cmd to build your application -->
+    <!--<script id="microloader" data-app="238d8ce1-d61b-4396-8632-57fe760a9aed" type="text/javascript" src="bootstrap.js"></script>-->
+
+    <!--cleanup_end-->
+
+</head>
+<body></body>
+</html>

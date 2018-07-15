@@ -8,11 +8,12 @@
      * Created by domin on 4/27/2016.
      */
     Ext.define('MapHiveHgisOld.Permalink', {
-    requires: [
-        'Ext.util.DelayedTask'
-    ],
 
-    config: {
+        requires: [
+            'Ext.util.DelayedTask'
+        ],
+
+        config: {
             /**
              * ol3 map object
              */
@@ -87,12 +88,14 @@
 
         },
 
+
         /**
          * Activates the module
          */
         activate: function(){
             this.applyPermalink();
-            this.getMap().on('moveend', this.update, this);
+            //note: this is a fuckup, as will not be able to unsubscribe the anonymous fn call this way!
+            this.getMap().on('moveend', Ext.bind(this.update, this));
             this.setActive(true);
             this.startHashPolling();
         },
@@ -102,6 +105,7 @@
          */
         deactivate: function(){
             this.stopHashPolling();
+            //see note in the activate method. ol5 does not take in the scope...
             this.getMap().un('moveend', this.update, this);
             this.setActive(false);
             this.resetPermalink();
@@ -211,6 +215,7 @@
          * initiates plink update
          */
         update: function(){
+
             //make sure there is something to do
             if(!this.getActive()) return;
 
