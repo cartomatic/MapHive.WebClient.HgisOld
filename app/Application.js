@@ -19,7 +19,7 @@
         controllers: [
             'mh.controller.Root',
             'mh.controller.Auth',
-            'mh.controller.Organisation',
+            'mh.controller.Organization',
             'mh.controller.Splash'
         ],
 
